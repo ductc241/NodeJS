@@ -1,3 +1,4 @@
+const { response, query } = require("express");
 
 class NewsController{
 
@@ -10,7 +11,6 @@ class NewsController{
     show(req, res) {
         res.send('this is a detail course page')
     }
-
 }
 
 module.exports  = new NewsController;
