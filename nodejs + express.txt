@@ -1,0 +1,11 @@
+Mô hình MVC:
+- giúp quản lí code 1 cách dễ dàng hơn, là cách quản lí source code
+- phân chia code thành các phần riêng biệt thep chức năng
+
+// Trong nodejs + express
+- view: chứa các khung html , css (không chứa dữ liệu cụ thể)
+- controller: sử lý kết quả đầu ra của các routes
+- model: chứa các schemas
+
+// Hoạt động của MVC
+B1: khi brower bắt đầu 

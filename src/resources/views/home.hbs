@@ -1,8 +1,7 @@
-<div class="mt-4">
+ <div class="mt-4">
     <div class="row">
+        {{#each courses}}
         <div class="col-sm-6 col-lg-4">
-
-            {{#each courses}}
             <div class="card" style="width: 18rem;">
                 <a href="/course/{{this.slug}}">
                     <img class="card-img-top" src="{{this.img}}" alt="Card image cap">
@@ -15,9 +14,8 @@
                     <a href="#" class="btn btn-primary">Đăng kí</a>
                 </div>
             </div>
-            {{/each}}
-            
         </div>
+        {{/each}}
     </div>
 </div>
 

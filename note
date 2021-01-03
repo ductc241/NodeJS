@@ -1,0 +1,7 @@
+Query parameter: Là dữ liệu đc gửi đi từ input và sẽ đc gắn lên url
+=> để truy cập req.query.(name cua input, mặc định là q)
+
+Form data: tg tự trên nhưng gửi bằng pt post
+=> để truy cập req.body.(name cua input)
+
+=============================
