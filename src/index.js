@@ -40,4 +40,4 @@ route(app);
 app.listen(port, () => console.log(`listen from port ${port}`))
 
 
-// npm start: khoi dong app
+// npm start: chay app
